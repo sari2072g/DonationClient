@@ -1,0 +1,8 @@
+<div class=" p-field p-col-6 button p-float-label" *ngIf="isSuccess!=null">
+    <div *ngIf="isSuccess">
+        <p-message severity="success" text="{{message}}">{{message}}</p-message>
+    </div>
+    <div *ngIf="!isSuccess">
+        <p-message severity="error" text="{{message}}">{{message}}</p-message>
+    </div>
+</div>

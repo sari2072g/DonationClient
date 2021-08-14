@@ -1,0 +1,74 @@
+
+
+
+.required{
+    color: red;
+}
+label{
+    color: blue;
+}
+.p-float-label ,label:focus{
+    color: blue;
+}
+span{
+    direction: rtl;
+}
+input:focus  {
+
+   border-color:yellow;
+}
+.p-fluid .p-button {
+    width: 100%;
+    background-color: white;
+    color: blue;
+    border-radius: 100px;
+} 
+.margin-div{
+    margin:3% ;
+    float: right;
+}
+.margin{
+    margin-bottom: 25px;
+}
+.buttons{
+    width: 30%;
+    display: inline-block;
+    margin: 10px;
+}
+.center{
+    text-align: center;
+}
+input,p-dropdown{
+    height: 40px;
+    width: inherit;
+    direction: rtl;
+}
+.p-float-label{
+    width: 100%!important;
+    direction: rtl;
+}
+.button{
+    width: 20%;
+    float: left;
+    margin-top: 3%;
+}
+
+.button p-button{
+    background: white;
+}
+.pButton button{
+    background: white!important;
+}
+.field-error {
+
+        border-color: #D81B1B;
+    
+  }
+  .error-text {
+    color: #D81B1B;
+    font-size: 16px;
+    display: block;
+    direction: rtl;
+  }
+
+

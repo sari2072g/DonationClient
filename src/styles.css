@@ -1,0 +1,11 @@
+/* You can add global styles to this file, and also import other style files */
+ .p-fluid .p-button {
+
+    border-radius: 100px;
+} 
+.p-ripple {
+    border-radius: 100px;
+}
+.p-dialog{
+    direction: rtl;
+}
