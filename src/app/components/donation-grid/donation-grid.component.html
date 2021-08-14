@@ -2,7 +2,7 @@
     <div *ngFor="let item of donationListItem ">
         <div class="card">
             <p-card>
-                <label> ש"ח  {{item.donation.countDonation}} <span style=" font-weight: bold;">{{item.donation.yeshutName}}</span> </label>
+             <span style=" font-weight: bold;">{{item.donation.yeshutName}}</span>   <label> ש"ח  {{item.donation.countDonation}}  </label>
 
                 <span class=" pull-left pi" [ngClass]="{' pi-angle-down' : !isClicable , 'pi-angle-up': isClicable}"
                     (click)="openOrginalDonationForm(item.donation);"></span>
