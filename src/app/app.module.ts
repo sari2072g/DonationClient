@@ -4,8 +4,6 @@ import { DropdownModule } from 'primeng/dropdown';
 import {ButtonModule } from 'primeng/button';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { DonationGridComponent } from './components/donation-grid/donation-grid.component';
-import { AddDonationComponent } from './components/add-donation/add-donation.component';
 import {PanelMenuModule} from 'primeng/panelmenu';
 import {TabMenuModule} from 'primeng/tabmenu';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
@@ -19,13 +17,14 @@ import {CardModule} from 'primeng/card';
 import {MessageModule} from 'primeng/message';
 import { InputTextareaModule } from "primeng/inputtextarea";
 import { InputTextModule } from "primeng/inputtext";
-import { HatraahComponent } from './components/hatraah/hatraah.component';
+import { InvestmentComponent } from './components/investment/investment.component';
+import {TableModule} from 'primeng/table';
+
 @NgModule({
   declarations: [
     AppComponent,
-    DonationGridComponent,
-    AddDonationComponent,
-    HatraahComponent
+    InvestmentComponent,
+    
       ],
   imports: [
     BrowserModule,
@@ -43,7 +42,7 @@ import { HatraahComponent } from './components/hatraah/hatraah.component';
     CardModule,
     MessageModule,
     InputTextareaModule,
-    InputTextModule
+    InputTextModule,TableModule
   ],
   providers: [DialogService, DynamicDialogConfig],
   bootstrap: [AppComponent]
